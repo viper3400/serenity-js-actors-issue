@@ -1,7 +1,7 @@
 import { describe, it } from 'mocha';
 import { contain, Ensure, equals } from '@serenity-js/assertions';
 import { actorCalled, actorInTheSpotlight, Question } from '@serenity-js/core';
-import { ClearLocalStorage, RecordedItems, RecordItem, RemoveItem, RenameItem, Start, ToggleItem } from 'wdio-lib';
+import { ClearLocalStorage, RecordedItems, RecordItem, RemoveItem, RenameItem, Start, ToggleItem } from '@viper3400/test-wdio-lib';
 
 describe('Managing a Todo List using an external lib', () => {
 
