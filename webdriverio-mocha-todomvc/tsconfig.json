@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "lib": ["es2019", "dom"],
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "declaration": true,
+    "types": ["node", "webdriverio/async"],
+    "paths": { "wdio-lib": ["./node-modules/wdio-lib"] }
+  },
+  "exclude": ["node_modules"]
+}
